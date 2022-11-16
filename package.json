@@ -2,7 +2,7 @@
   "name": "@snowman2908/saga",
   "version": "1.0.0",
   "description": "saga",
-  "repository": "",
+  "repository": "Snowman2908/saga",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -16,7 +16,7 @@
     "prepublishOnly": "npm test && npm run clean && npm run build"
   },
   "author": "Snowman2908 <kirill2908@yandex.ru>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "private": false,
   "devDependencies": {
     "@types/jest": "^26.0.14",
