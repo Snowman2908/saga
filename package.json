@@ -13,7 +13,7 @@
     "clean": "rimraf lib",
     "test": "jest --passWithNoTests",
     "build": "tsc -P tsconfig.build.json",
-    "prepublishOnly": "npm test && npm run clean && npm run build"
+    "prepublishOnly": "npm run clean && npm run build"
   },
   "author": "Snowman2908 <kirill2908@yandex.ru>",
   "license": "MIT",
