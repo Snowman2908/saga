@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "lib": ["es2019", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "lib",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*", "custom_typings/*"]
+    }
+  },
+  "files": ["src/index.ts"],
+  "include": ["src/**/*.test.ts"]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "@snowman2908/saga",
+  "version": "1.0.0",
+  "description": "saga",
+  "repository": "",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "scripts": {
+    "clean": "rimraf lib",
+    "test": "jest --passWithNoTests",
+    "build": "tsc -P tsconfig.build.json",
+    "prepublishOnly": "npm test && npm run clean && npm run build"
+  },
+  "author": "Snowman2908 <kirill2908@yandex.ru>",
+  "license": "UNLICENSED",
+  "private": false,
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "jest": "^26.5.0",
+    "prettier": "^2.1.2",
+    "rimraf": "^2.6.3",
+    "ts-jest": "^26.4.1",
+    "typescript": "^4.1.15"
+  },
+  "dependencies": {
+  }
+}
+
